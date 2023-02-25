@@ -1,0 +1,4 @@
+.page-id-2742 .main-slide-left .btn-default-gree{
+	padding: 10px 14px !important;
+	font-size: 10px !important;
+}
