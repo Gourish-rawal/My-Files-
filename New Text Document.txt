@@ -1,4 +1,11 @@
-.page-id-2742 .main-slide-left .btn-default-gree{
-	padding: 10px 14px !important;
-	font-size: 10px !important;
-}
+jQuery(document).ready(function( $ ){
+    $(".popmake-close").on("click",function(){
+    //console.log("click")
+    $(this).parents(".popmake-overlay").css("display","none");
+  });
+    $(".popmake-4042").on("click",function(){
+    //console.log("click")
+    $("#pum-4042").css("display","block");
+  });
+    
+});
